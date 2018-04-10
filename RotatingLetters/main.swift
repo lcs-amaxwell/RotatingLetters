@@ -24,12 +24,12 @@ guard let input = rawInput else {
 // process
 var rotatingLetter = 0
 var nonRotatingLetter = 0
-for letters in input {
-    print(letters)
+for letter in input {
+  
     
     
     
-    switch letters {
+    switch letter {
     case "I", "O", "S", "H", "Z", "X", "N" :
         rotatingLetter += 1
         
