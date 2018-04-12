@@ -46,6 +46,8 @@ for letter in input {
         break
     }
     
+    
+    
 }
 
 // output
